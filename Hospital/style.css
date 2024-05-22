@@ -35,86 +35,15 @@ section:nth-child(even){
     background: #f5f5f5;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes imageAnimation {
-    10% {
-        transform: scale(1);
-    }
-    10% {
-        transform: scale(1.1);
-    }
-}
-
-.home .image {
-    animation: imageAnimation 1s infinite alternate;
-}
-
  .home .image img{
     width: 25%;
     box-shadow: var(--box-shadow);
     height: 20%;
     border-radius: 50%;
     object-fit: cover;
-    border:.5rem solid #fff;
-    
+    border:.5rem solid #fff;   
  }
-
- .home .content h3,
-.home .content p,
-.home .content .btn {
-  animation: fadeIn 1s ease-in-out;
-}
-
-.icons-container .icons {
-  animation: slideInRight 1s ease-in-out;
-}
-
-.services .box-container .box,
-.about .row .image,
-.about .row .content,
-.doctors .box-container .box,
-.book .row .image,
-.book .row form,
-.review .box-container .box {
-  animation: fadeIn 1s ease-in-out;
-}
-
-.blogs .box-container .box {
-  animation: slideInLeft 1s ease-in-out;
-}
-
+ 
 .navbar a {
   position: relative;
   overflow: hidden;
@@ -341,19 +270,6 @@ section:nth-child(even){
     line-height: 1.8;
 }
 
-@keyframes imageAnimation {
-    10% {
-        transform: scale(1);
-    }
-    10% {
-        transform: scale(1.1);
-    }
-}
-
-.about .row .image {
-    animation: imageAnimation 1s infinite alternate;
-}
-
  .about .row .image img{
     width: 65%;
     box-shadow: var(--box-shadow);
@@ -363,7 +279,6 @@ section:nth-child(even){
     border:.5rem solid #fff;
     
  }
-
 
 .doctors .box-container{
     display: grid;
@@ -423,20 +338,6 @@ section:nth-child(even){
     flex-wrap: wrap;
     gap: 2rem;
  }
-
- 
- @keyframes imageAnimation {
-    10% {
-        transform: scale(1);
-    }
-    10% {
-        transform: scale(1.1);
-    }
-}
-
-.book .row .image {
-    animation: imageAnimation 1s infinite alternate;
-}
 
  .book .row .image img{
     width: 95%;
